@@ -1,0 +1,14 @@
+public class ConversorMetrosParaCentimetros {
+    public static void main(String[] args) {
+        // Defina o valor em metros que deseja converter
+        double metros = 5.0; // Por exemplo, 5 metros
+
+        // Chame o método para converter metros para centímetros e imprima o resultado
+        converteMetrosParaCentimetros(metros);
+    }
+
+    public static void converteMetrosParaCentimetros(double metros) {
+        double centimetros = metros * 100;
+        System.out.println(metros + " metros equivalem a " + centimetros + " centímetros.");
+    }
+}
