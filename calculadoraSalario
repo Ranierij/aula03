@@ -1,0 +1,15 @@
+public class CalculadoraSalario {
+    public static void main(String[] args) {
+        double salarioPorHora = 10.5; // Exemplo de salário por hora
+        int horasTrabalhadas = 160; // Exemplo de horas trabalhadas no mês
+        
+        double salarioTotal = calculaSalario(salarioPorHora, horasTrabalhadas);
+        
+        System.out.println("O total do salário no mês é: " + salarioTotal + " reais.");
+    }
+    
+    public static double calculaSalario(double salarioPorHora, int horasTrabalhadas) {
+        double salarioTotal = salarioPorHora * horasTrabalhadas;
+        return salarioTotal;
+    }
+}
