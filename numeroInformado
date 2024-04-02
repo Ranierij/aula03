@@ -1,0 +1,11 @@
+public class NumeroInformado {
+    public static void main(String[] args) {
+        int numero = 42; // Exemplo de número
+        
+        recebeNumero(numero);
+    }
+    
+    public static void recebeNumero(int num) {
+        System.out.println("O número informado foi: " + num);
+    }
+}
