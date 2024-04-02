@@ -1,0 +1,13 @@
+ public static void recebeNumeros () {
+    int numero1 = 10;
+    int numero2 = 20;
+    double numero3 = 30.5;
+    double produto = numero1 * 2 + numero2 / 2;
+    double soma = numero1 * 3 + numero3;
+    double cubo = (numero3*numero3*numero3);
+    //double cubo = Math.pow(numero3, 3);
+    System.out.println ("O produto do dobro do primeiro com metade do segundo é " + produto);
+    System.out.println ("A soma do triplo do primeiro com o terceiro é " + soma);
+    System.out.println ("O terceiro elevado ao cubo é " + cubo);
+  }
+  /
