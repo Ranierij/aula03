@@ -1,0 +1,5 @@
+public static void trocarFarenheitParaCelsius () {
+    double farenheit = 10;
+    double celsius = (5 * (farenheit - 32)) / 9;
+    System.out.printf ("A temperatura de %.2f graus Farenheit equivale a %.2f graus Celsius" , farenheit , celsius);
+  }
