@@ -1,0 +1,7 @@
+public static void calculaPesoHomemMulher () {
+    double altura = 1.80;
+    double pesoIdealHomem = (72.7 * altura) - 58;
+    double pesoIdealMulher = (62.1 * altura) - 44.7;
+    System.out.println("O peso ideal para um homem com altura " + altura + "m é " + pesoIdealHomem + "kg");
+    System.out.println("O peso ideal para uma mulher com altura " + altura + "m é " + pesoIdealMulher + "kg");    
+  }
